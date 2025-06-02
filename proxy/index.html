@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo a Hogwarts</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, #2e1a47 0%, #1f1f2e 100%);
+            font-family: 'Georgia', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #f5f5f5;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 50px 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            backdrop-filter: blur(6px);
+            animation: fadeIn 1s ease-out;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+            color: #ffcc00;
+        }
+
+        p {
+            font-size: 1.2em;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .emoji {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="emoji">🏰</div>
+        <h1>Bem-vindo a Hogwarts</h1>
+        <p>Você chegou ao servidor de proxy mágico. As portas do castelo estão abertas para sua jornada!</p>
+    </div>
+</body>
+
+</html>
