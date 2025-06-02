@@ -1,6 +1,6 @@
 # 🧙‍♂️ ASA - Entrega 02: Ambiente com DNS, Proxy Reverso e Web Servers usando Docker
 
-Este projeto foi desenvolvido como parte da disciplina de **Administração de Sistemas e Aplicações (ASA)** e tem como objetivo a construção de um ambiente em containers Docker com:
+Este projeto foi desenvolvido como parte da disciplina de **Administração de Sistemas Abertos (ASA)** e tem como objetivo a construção de um ambiente em containers Docker com:
 
 - Um servidor **DNS** configurado manualmente
 - Um **proxy reverso** com Nginx
